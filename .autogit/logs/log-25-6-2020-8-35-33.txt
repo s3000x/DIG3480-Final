@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 25 2020 08:35:33 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art.meta
+
+
+Created files:
+* .autogit/autogit.json
+* .vscode/settings.json
+* Assets/TestRoom.unity
+* Assets/TestRoom.unity.meta
+
+
+Deleted files:
+
+
+Renamed files:

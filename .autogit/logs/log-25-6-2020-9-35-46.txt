@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 25 2020 09:35:46 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-25-6-2020-9-5-40.txt
+* Assets/Scripts/KillScript.cs
+* Assets/Scripts/KillScript.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 25 2020 09:05:40 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-25-6-2020-8-35-33.txt
+* "Assets/Art/Sprites/Bullet Sheet.png"
+* "Assets/Art/Sprites/Bullet Sheet.png.meta"
+* Assets/Art/Sprites/PurpleSphere.png
+* Assets/Art/Sprites/PurpleSphere.png.meta
+* Assets/Art/Sprites/RedSphere.png
+* Assets/Art/Sprites/RedSphere.png.meta
+* Assets/Art/Sprites/YellowBullet.png
+* Assets/Art/Sprites/YellowBullet.png.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -26,7 +26,9 @@ public class BulletEmitter : MonoBehaviour
         time -= Time.deltaTime;
         if (time <= 0)
         {
-            Instantiate (objForEmit, new Vector2 (0, 0), Quaternion.identity);
+           GameObject instance = Instantiate (objForEmit, new Vector2 (0, 0), Quaternion.identity);
+           instance.transform.position = transform.position;
+           Debug.Log("" + instance.transform.position);
             Debug.Log("" + emitterPos);
             time = originalTime; 
         }

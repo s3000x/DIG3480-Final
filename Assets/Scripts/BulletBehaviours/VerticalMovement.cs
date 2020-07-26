@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class VerticalMovement : MonoBehaviour
 {
     private Vector2 emitterPos;
     private Vector2 emitterPosB;
 
     private Vector2 emitterMove;
-    public int distance;
 
     private float speed;
 
@@ -18,13 +17,13 @@ public class Movement : MonoBehaviour
     {
         emitterBody = GetComponent<Rigidbody2D>();
         emitterPos = emitterBody.transform.position;
-        emitterPosB = new Vector2(emitterPos.x + distance, emitterPos.y);
-        speed = 0.6f;
+        emitterPosB = new Vector2(emitterPos.x, emitterPos.y - 12);
+        speed = 0.07f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.Lerp(emitterPos, emitterPosB, Mathf.PingPong(speed * Time.time, 1));
+        transform.position = Vector2.Lerp(emitterPos, emitterPosB, speed * Time.time);
     }
 }

@@ -31,6 +31,10 @@ public class RubyShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene(currentScene.name);
+        }
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
@@ -50,7 +54,7 @@ public class RubyShip : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
-        Debug.Log("YouGotHit!");
+        currentHealth -= 1;
         Destroy(other.gameObject);
         }
     }

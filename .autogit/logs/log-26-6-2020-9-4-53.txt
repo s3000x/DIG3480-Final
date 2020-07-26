@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 09:04:53 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/BulletEffect.prefab
+* Assets/Prefabs/Explosion.prefab
+* Assets/Prefabs/ExplosionController.prefab
+* Assets/Prefabs/SpreadShotController.prefab
+* Assets/Scripts/BossScript.cs
+* Assets/Scripts/BulletBehaviours/KillScript.cs
+* Assets/TestRoom.unity
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-8-34-50.txt
+
+
+Deleted files:
+
+
+Renamed files:

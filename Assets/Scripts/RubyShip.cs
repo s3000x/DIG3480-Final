@@ -46,4 +46,12 @@ public class RubyShip : MonoBehaviour
         
         rigidbody2d.MovePosition(position);        
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("bullet"))
+        {
+        Debug.Log("YouGotHit!");
+        Destroy(other.gameObject);
+        }
+    }
 }

@@ -11,12 +11,12 @@ public class VerticalMovement : MonoBehaviour
 
     private float speed;
 
-    Rigidbody2D emitterBody;
+    Rigidbody2D rigidbody2D;
     // Start is called before the first frame update
     void Start()
     {
-        emitterBody = GetComponent<Rigidbody2D>();
-        emitterPos = emitterBody.transform.position;
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        emitterPos = rigidbody2D.transform.position;
         emitterPosB = new Vector2(emitterPos.x, emitterPos.y - 12);
         speed = 0.07f;
     }

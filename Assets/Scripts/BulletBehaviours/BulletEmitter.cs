@@ -22,13 +22,12 @@ public class BulletEmitter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {      
-        GameObject objToEmit;
-        objToEmit = objForEmit.gameObject;
-        Debug.Log("" + objToEmit);
+        Vector2 emitterPos = rigidbody2D.transform.position;
         time -= Time.deltaTime;
         if (time <= 0)
         {
-            Instantiate (objToEmit, new Vector2(rigidbody2D.transform.position.x, rigidbody2D.transform.position.y), Quaternion.identity);
+            Instantiate (objForEmit, emitterPos + Vector2.up, Quaternion.identity);
+            Debug.Log("" + emitterPos);
             time = originalTime; 
         }
     }

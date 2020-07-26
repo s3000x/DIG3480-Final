@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 02:23:24 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scripts/BulletBehaviours/KillScript.cs
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-1-53-18.txt
+
+
+Deleted files:
+
+
+Renamed files:

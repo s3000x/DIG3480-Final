@@ -5,8 +5,10 @@ using UnityEngine;
 public class KillScript : MonoBehaviour
 {
     public float killTime;
+    public ParticleSystem bulletEffect;
     public bool killModeDestroy;
     public bool killModeDeactivate;
+    public bool randomize;
 
     Collider2D killCollider;
     SpriteRenderer killRender;
@@ -20,6 +22,11 @@ public class KillScript : MonoBehaviour
        killCollider = GetComponent<Collider2D>();
        killRender = GetComponent<SpriteRenderer>();
        canKill = true;
+       if (randomize == true)
+       {
+           killTime = Random.Range(1.0f, 1.5f);
+           Debug.Log("" + killTime);
+       }
        killReset = killTime;
        
 
@@ -43,6 +50,7 @@ public class KillScript : MonoBehaviour
         {
             killCollider.enabled = !killCollider.enabled;
             killRender.enabled = !killRender.enabled;
+            bulletEffect.Play();
             canKill = false;
             killModeDestroy = true;
             killTime += killReset + 3;

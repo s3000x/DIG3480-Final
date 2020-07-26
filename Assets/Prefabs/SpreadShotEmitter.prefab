@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 13
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4802,6 +4802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killTime: 10
+  killModeDestroy: 1
+  killModeDeactivate: 0
 --- !u!114 &5304265027146025373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4814,6 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b730f19574b36c04db8210e20a8fde02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1.2
 --- !u!212 &5304265027146025371
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 25 2020 14:07:54 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/TestRoom.unity
+* ProjectSettings/TagManager.asset
+
+
+Created files:
+* .autogit/logs/log-25-6-2020-9-35-46.txt
+* Assets/Scripts/RubyShip.cs
+* Assets/Scripts/RubyShip.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -17,13 +17,14 @@ public class VerticalMovement : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         emitterPos = rigidbody2D.transform.position;
-        emitterPosB = new Vector2(emitterPos.x, emitterPos.y - 12);
+        //emitterPosB = new Vector2(emitterPos.x, emitterPos.y - 12);
         speed = 0.07f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.Lerp(emitterPos, emitterPosB, speed * Time.time);
+        rigidbody2D.AddForce(Vector2.down);
+        //transform.position = Vector2.Lerp(emitterPos, emitterPosB, speed * Time.time);
     }
 }

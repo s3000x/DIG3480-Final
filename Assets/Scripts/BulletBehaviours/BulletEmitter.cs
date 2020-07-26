@@ -5,8 +5,9 @@ using UnityEngine;
 public class BulletEmitter : MonoBehaviour
 {
     public GameObject objForEmit;
-    public float time;
-    private float originalTime;
+    private float time;
+    public float originalTime;
+    public int emitsLeft;
 
     Rigidbody2D rigidbody2D;
 
@@ -14,8 +15,7 @@ public class BulletEmitter : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        originalTime = time;
-        Debug.Log("" + objForEmit);
+        time = 0;
   
     }
 
@@ -24,13 +24,11 @@ public class BulletEmitter : MonoBehaviour
     {      
         Vector2 emitterPos = rigidbody2D.transform.position;
         time -= Time.deltaTime;
-        if (time <= 0)
+        if (time <= 0 && emitsLeft > 0)
         {
-           GameObject instance = Instantiate (objForEmit, new Vector2 (0, 0), Quaternion.identity);
-           instance.transform.position = transform.position;
-           Debug.Log("" + instance.transform.position);
-            Debug.Log("" + emitterPos);
+            GameObject instance = Instantiate (objForEmit, emitterPos, Quaternion.identity);
             time = originalTime; 
+            emitsLeft -= 1;
         }
     }
 }

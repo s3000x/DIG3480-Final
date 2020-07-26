@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 00:23:00 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/SpreadShotEmitter.prefab
+* Assets/Scripts/BulletBehaviours/BulletEmitter.cs
+* Assets/Scripts/BulletBehaviours/VerticalMovement.cs
+* Assets/TestRoom.unity
+
+
+Created files:
+* .autogit/logs/log-25-6-2020-23-52-54.txt
+
+
+Deleted files:
+
+
+Renamed files:

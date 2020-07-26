@@ -26,7 +26,7 @@ public class BulletEmitter : MonoBehaviour
         time -= Time.deltaTime;
         if (time <= 0)
         {
-            Instantiate (objForEmit, emitterPos + Vector2.up, Quaternion.identity);
+            Instantiate (objForEmit, new Vector2 (0, 0), Quaternion.identity);
             Debug.Log("" + emitterPos);
             time = originalTime; 
         }

@@ -13,16 +13,22 @@ public class BulletEmitter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody2D = GetComponent<Rigidbody2D>();
         originalTime = time;
+        Debug.Log("" + objForEmit);
+  
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {      
+        GameObject objToEmit;
+        objToEmit = objForEmit.gameObject;
+        Debug.Log("" + objToEmit);
         time -= Time.deltaTime;
         if (time <= 0)
         {
-            GameObject emitObj = (GameObject)Instantiate(objForEmit, rigidbody2D.position, Quaternion.identity);
+            Instantiate (objToEmit, new Vector2(rigidbody2D.transform.position.x, rigidbody2D.transform.position.y), Quaternion.identity);
             time = originalTime; 
         }
     }

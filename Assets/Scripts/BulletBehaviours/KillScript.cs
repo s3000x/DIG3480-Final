@@ -24,7 +24,7 @@ public class KillScript : MonoBehaviour
        canKill = true;
        if (randomize == true)
        {
-           killTime = Random.Range(1.0f, 1.5f);
+           killTime = Random.Range(1.0f, 1.35f);
            Debug.Log("" + killTime);
        }
        killReset = killTime;

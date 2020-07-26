@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 08:34:50 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/TestRoom.unity
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-2-53-30.txt
+* Assets/Prefabs/Explosion.prefab
+* Assets/Prefabs/Explosion.prefab.meta
+* Assets/Prefabs/ExplosionController.prefab
+* Assets/Prefabs/ExplosionController.prefab.meta
+* Assets/Scripts/BossScript.cs
+* Assets/Scripts/BossScript.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

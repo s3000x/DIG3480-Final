@@ -74,4 +74,10 @@ public class RubyShip : MonoBehaviour
         Destroy(other.gameObject);
         }
     }
+
+    void OnParticleCollision()
+    {
+        Debug.Log("A particle collision");
+        currentHealth -= 1;
+    }
 }

@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 01:22:22 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scripts/RubyShip.cs
+
+
+Created files:
+* .autogit/logs/log-27-6-2020-0-52-16.txt
+
+
+Deleted files:
+
+
+Renamed files:

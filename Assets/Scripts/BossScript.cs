@@ -12,6 +12,8 @@ public class BossScript : MonoBehaviour
     public GameObject attack1;
     public GameObject attack2;
     public GameObject attack3;
+
+    public int health;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +22,18 @@ public class BossScript : MonoBehaviour
         waitTime = 5.0f;
     }
 
+    void OnParticleCollision()
+    {
+        health -= 1;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
         waitTime -= Time.deltaTime;
         if ((waitTime <= 0) && canAttack == true)
         {

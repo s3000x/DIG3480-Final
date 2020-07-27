@@ -339,7 +339,8 @@ GameObject:
   - component: {fileID: 1063039075}
   - component: {fileID: 1063039074}
   - component: {fileID: 1063039076}
-  m_Layer: 0
+  - component: {fileID: 1063039077}
+  m_Layer: 12
   m_Name: Attacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,6 +426,33 @@ MonoBehaviour:
   attack1: {fileID: 4172948159136703727, guid: 528c36d64ecb5c54b84c63d94777e7ac, type: 3}
   attack2: {fileID: 2393530295852959777, guid: 8d9c64292a1421a4fa80e62a744c08f4, type: 3}
   attack3: {fileID: 7978024054299240245, guid: 33319579f3849454d93cdb5c8fa4b887, type: 3}
+  health: 320
+--- !u!61 &1063039077
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063039073}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.007522106, y: 0.1429202}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.96, y: 1.76}
+    newSize: {x: 1.96, y: 1.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7042484, y: 1.4741596}
+  m_EdgeRadius: 0
 --- !u!1 &1480350180
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +544,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0

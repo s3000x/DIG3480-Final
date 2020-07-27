@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 01:52:27 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Boss.unity
+
+
+Created files:
+* .autogit/logs/log-27-6-2020-1-22-22.txt
+* Assets/Art/Sprites/Characters/RubyShipSheet.png
+* Assets/Art/Sprites/Characters/RubyShipSheet.png.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -345,7 +345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1063039074
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -459,10 +459,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   maxHealth: 10
-  timeInvincible: 0
+  timeInvincible: 3
   damageEffect: {fileID: 0}
   speed: 6
   hitbox: {fileID: 1006072661}
+  projectilePrefab: {fileID: 6308707715319612639, guid: 7bbf7a6d644a5c446ac467f57d3fb7f8,
+    type: 3}
 --- !u!212 &1751897323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -587,6 +589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpreadShotEmitter
       objectReference: {fileID: 0}
+    - target: {fileID: 5304265027146025374, guid: 831d0f116292f5941a13a2928942b62d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5304265027146025375, guid: 831d0f116292f5941a13a2928942b62d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -658,8 +665,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7978024054299240245, guid: 33319579f3849454d93cdb5c8fa4b887,
         type: 3}
-      propertyPath: m_TagString
-      value: bullet
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978024054299240246, guid: 33319579f3849454d93cdb5c8fa4b887,
         type: 3}
@@ -715,51 +722,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054746746432, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.m_Bounce.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054746746432, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054746746461, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: m_TagString
-      value: bullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054840484483, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: m_TagString
-      value: bullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054840484486, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.m_Bounce.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024054840484486, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024055462366722, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.m_Bounce.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024055462366722, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978024055462366751, guid: 33319579f3849454d93cdb5c8fa4b887,
-        type: 3}
-      propertyPath: m_TagString
-      value: bullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33319579f3849454d93cdb5c8fa4b887, type: 3}

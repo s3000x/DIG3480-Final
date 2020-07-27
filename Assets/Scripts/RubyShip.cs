@@ -19,6 +19,8 @@ public class RubyShip : MonoBehaviour
     private float originalSpeed;
     Scene currentScene;
     public GameObject hitbox;
+    public GameObject projectilePrefab;
+    Vector2 lookDirection = new Vector2(0, 0);
 
 
 
@@ -29,6 +31,16 @@ public class RubyShip : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;       
+    }
+
+    void Launch()
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.zero * 0.5f, Quaternion.identity);
+
+        
+        Projectile projectile = projectileObject.GetComponent<Projectile>();
+        projectile.Launch(lookDirection, 300);
+
     }
 
     // Update is called once per frame
@@ -79,12 +91,12 @@ public class RubyShip : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
-                    if (isInvincible)
-                return;
+            if (isInvincible)
+            return;
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
-        currentHealth -= 1;
+            currentHealth -= 1;
         Destroy(other.gameObject);
         }
     }
@@ -92,11 +104,11 @@ public class RubyShip : MonoBehaviour
     void OnParticleCollision()
     {
         Debug.Log("A particle collision");
-                    if (isInvincible)
+         if (isInvincible)
                 return;
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
-        currentHealth -= 1;
+            currentHealth -= 1;
     }
 }

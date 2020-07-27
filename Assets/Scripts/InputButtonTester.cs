@@ -15,7 +15,7 @@ public class InputButtonTester : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (Input.GetButtonDown("Joystick Button 0"))
+      if (Input.GetButtonDown("Cancel"))
       {
           Debug.Log("This is joystick button 0" );
       }

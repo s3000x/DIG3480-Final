@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 00:22:09 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-23-52-4.txt
+* "Assets/Art/Sprites/New Material 1.mat"
+* "Assets/Art/Sprites/New Material 1.mat.meta"
+
+
+Deleted files:
+
+
+Renamed files:

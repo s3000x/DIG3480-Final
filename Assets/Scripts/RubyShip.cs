@@ -11,7 +11,7 @@ public class RubyShip : MonoBehaviour
     public float timeInvincible;
     public ParticleSystem damageEffect;
     private bool isInvincible;
-    private int invincibleTimer; 
+    private float invincibleTimer; 
     public float speed;
     Rigidbody2D rigidbody2d;
     private float horizontal;
@@ -34,6 +34,15 @@ public class RubyShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isInvincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer < 0)
+            {
+                isInvincible = false;
+            }
+        }
+
         if (Input.GetButtonDown("Submit"))
         {
             hitbox.SetActive(true);
@@ -70,6 +79,11 @@ public class RubyShip : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
+                    if (isInvincible)
+                return;
+
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
         currentHealth -= 1;
         Destroy(other.gameObject);
         }
@@ -78,6 +92,11 @@ public class RubyShip : MonoBehaviour
     void OnParticleCollision()
     {
         Debug.Log("A particle collision");
+                    if (isInvincible)
+                return;
+
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
         currentHealth -= 1;
     }
 }

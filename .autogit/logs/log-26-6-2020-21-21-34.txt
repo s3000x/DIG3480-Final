@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 21:21:34 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/Explosion.prefab
+* Assets/Prefabs/SpreadShotEmitter.prefab
+* Assets/Scripts/RubyShip.cs
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-20-51-28.txt
+
+
+Deleted files:
+
+
+Renamed files:

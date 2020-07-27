@@ -20,7 +20,7 @@ public class RubyShip : MonoBehaviour
     Scene currentScene;
     public GameObject hitbox;
     public GameObject projectilePrefab;
-    Vector2 lookDirection = new Vector2(0, 0);
+    Vector2 lookDirection = new Vector2(0, 1);
 
 
 
@@ -46,6 +46,10 @@ public class RubyShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        while (Input.GetButtonDown("Fire3"))
+        {
+            Launch();
+        }
         if (isInvincible)
         {
             invincibleTimer -= Time.deltaTime;

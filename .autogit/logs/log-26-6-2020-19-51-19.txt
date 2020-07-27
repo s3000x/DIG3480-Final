@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 19:51:19 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Art/Sprites/Bullet Sheet.png"
+* Assets/Art/Sprites/RedSphere.png.meta
+* Assets/Scripts/RubyShip.cs
+* Assets/TestRoom.unity
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-9-34-57.txt
+* Assets/Art/Sprites/hitbox.png
+* Assets/Art/Sprites/hitbox.png.meta
+* Assets/Scripts/BulletBehaviours/BulletParticle.cs
+* Assets/Scripts/BulletBehaviours/BulletParticle.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

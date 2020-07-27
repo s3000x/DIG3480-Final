@@ -1,0 +1,26 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 00:52:16 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Art/Sprites/Bullet Sheet.png"
+* "Assets/Art/Sprites/New Material 1.mat"
+* Assets/Boss.unity
+* Assets/Scripts/RubyShip.cs
+* Assets/TestRoom.unity
+
+
+Created files:
+* .autogit/logs/log-27-6-2020-0-22-9.txt
+* Assets/Art/Sprites/starstreak.png
+* Assets/Art/Sprites/starstreak.png.meta
+* Assets/Prefabs/Boss.prefab
+* Assets/Prefabs/Boss.prefab.meta
+* Assets/Prefabs/RubyShip.prefab
+* Assets/Prefabs/RubyShip.prefab.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -104,6 +104,8 @@ public class RubyShip : MonoBehaviour
             invincibleTimer = timeInvincible;
             currentHealth -= 1;
         Destroy(other.gameObject);
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
         }
     }
 
@@ -117,7 +119,7 @@ public class RubyShip : MonoBehaviour
             invincibleTimer = timeInvincible;
             currentHealth -= 1;
 
-        currentHealth = Mathf.Clamp(currentHealth + -1, 0, maxHealth);
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
 }

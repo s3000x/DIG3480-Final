@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jul 26 2020 23:52:04 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* "Assets/Art/Sprites/Bullet Sheet.png"
+* Assets/Scripts/BossScript.cs
+* Assets/TestRoom.unity
+* ProjectSettings/EditorBuildSettings.asset
+
+
+Created files:
+* .autogit/logs/log-26-6-2020-23-21-58.txt
+* "Assets/Art/Sprites/New Material.mat"
+* "Assets/Art/Sprites/New Material.mat.meta"
+* Assets/Art/Sprites/star.png
+* Assets/Art/Sprites/star.png.meta
+* Assets/Boss.unity
+* Assets/Boss.unity.meta
+
+
+Deleted files:
+
+
+Renamed files:

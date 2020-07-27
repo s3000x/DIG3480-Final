@@ -19,8 +19,9 @@ public class RubyShip : MonoBehaviour
     private float originalSpeed;
     Scene currentScene;
     public GameObject hitbox;
-    public GameObject projectilePrefab;
+    public ParticleSystem projectileEffect;
     Vector2 lookDirection = new Vector2(0, 1);
+    public int coolDown = 1;
 
 
 
@@ -35,20 +36,21 @@ public class RubyShip : MonoBehaviour
 
     void Launch()
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.zero * 0.5f, Quaternion.identity);
 
-        
-        Projectile projectile = projectileObject.GetComponent<Projectile>();
-        projectile.Launch(lookDirection, 300);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        while (Input.GetButtonDown("Fire3"))
+        if (Input.GetButtonDown("Fire3"))
         {
-            Launch();
+           projectileEffect.Play();
+        }
+
+        if (Input.GetButtonUp("Fire3"))
+        {
+            projectileEffect.Stop();
         }
         if (isInvincible)
         {

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5304265027140667803}
   - component: {fileID: 5304265027140667802}
   - component: {fileID: 13005275}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BulletSpread
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -4781,7 +4781,7 @@ GameObject:
   - component: {fileID: 5304265027146025373}
   - component: {fileID: 5304265027146025371}
   - component: {fileID: 5304265027146025370}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SpreadShotEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}

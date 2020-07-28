@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8218630703916393696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.003, y: -0.301, z: 0}
-  m_LocalScale: {x: 0.7514994, y: 0.7514994, z: 0.7514994}
+  m_LocalPosition: {x: 0.153, y: -0.316, z: 0}
+  m_LocalScale: {x: 1.6163024, y: 1.6163024, z: 1.6163024}
   m_Children: []
   m_Father: {fileID: 8218630704680043353}
   m_RootOrder: 0
@@ -4848,6 +4848,7 @@ GameObject:
   - component: {fileID: 8218630704680043359}
   - component: {fileID: 8218630704680043352}
   - component: {fileID: 8218630704680043355}
+  - component: {fileID: 7466946598023885143}
   m_Layer: 0
   m_Name: RubyShip
   m_TagString: Player
@@ -4864,7 +4865,7 @@ Transform:
   m_GameObject: {fileID: 8218630704680043356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5150694, y: 0.5150694, z: 0.5150694}
   m_Children:
   - {fileID: 8218630703916393699}
   - {fileID: 8218630704414920274}
@@ -4910,7 +4911,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300052, guid: c1dbff5bcb29cdd4bbb8de3a29f2328c, type: 3}
+  m_Sprite: {fileID: 362443807098991343, guid: 7ec17edcbc78f9d4f805cdc558c39a0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4975,16 +4976,35 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01865238, y: -0.16495323}
+  m_Offset: {x: 0.13492608, y: -0.01552549}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2806249, y: 1.28}
+    oldSize: {x: 2.915, y: 3.49}
     newSize: {x: 1.2806249, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.22129416, y: 0.24720693}
+  m_Size: {x: 0.69448197, y: 0.5460624}
   m_EdgeRadius: 0
+--- !u!95 &7466946598023885143
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218630704680043356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e128107b42b7559448c2cadc35710476, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

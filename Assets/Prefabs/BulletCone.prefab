@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 7978024054746746462}
   - component: {fileID: 7978024054746746432}
   - component: {fileID: 7978024054746746463}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BulletCones (2)
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -3781,7 +3781,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 28471
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -4814,7 +4814,7 @@ GameObject:
   - component: {fileID: 7978024054840484484}
   - component: {fileID: 7978024054840484486}
   - component: {fileID: 7978024054840484485}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BulletCones
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -8535,7 +8535,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 28471
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -9655,7 +9655,7 @@ GameObject:
   - component: {fileID: 7978024055462366720}
   - component: {fileID: 7978024055462366722}
   - component: {fileID: 7978024055462366721}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BulletCones (1)
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -13376,7 +13376,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 28471
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5

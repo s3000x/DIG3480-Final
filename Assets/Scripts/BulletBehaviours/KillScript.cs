@@ -9,6 +9,8 @@ public class KillScript : MonoBehaviour
     public bool killModeDestroy;
     public bool killModeDeactivate;
     public bool randomize;
+    public AudioClip killClip;
+    AudioSource audiosource;
 
     Collider2D killCollider;
     SpriteRenderer killRender;
@@ -18,7 +20,7 @@ public class KillScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+       audiosource = GetComponent<AudioSource>();
        killCollider = GetComponent<Collider2D>();
        killRender = GetComponent<SpriteRenderer>();
        canKill = true;
@@ -41,6 +43,11 @@ public class KillScript : MonoBehaviour
         if (killTime <= 0.0f)
         {
             Destroy(this.gameObject);
+            if (killClip != null)
+            {
+                audiosource.PlayOneShot(killClip);
+            }
+            
         }
     }
     else
@@ -48,12 +55,17 @@ public class KillScript : MonoBehaviour
         killTime -= Time.deltaTime;
         if (killTime <= 0.0f && canKill == true)
         {
+
             killCollider.enabled = !killCollider.enabled;
             killRender.enabled = !killRender.enabled;
             bulletEffect.Play();
             canKill = false;
             killModeDestroy = true;
             killTime += killReset + 3;
+            if (killClip != null)
+            {
+                audiosource.PlayOneShot(killClip);
+            }
         }
     }
     }

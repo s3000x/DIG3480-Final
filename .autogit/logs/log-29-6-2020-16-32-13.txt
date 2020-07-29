@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 16:32:13 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/BulletCone.prefab
+* Assets/Prefabs/Explosion.prefab
+* Assets/Prefabs/SpreadShotController.prefab
+* Assets/Scripts/Projectile.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-16-2-10.txt
+* Assets/Audio/shoot.wav
+* Assets/Audio/shoot.wav.meta
+
+
+Deleted files:
+
+
+Renamed files:

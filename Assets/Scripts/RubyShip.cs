@@ -65,7 +65,7 @@ public class RubyShip : MonoBehaviour
         {
            projectileEffect.Play();
            audioSource.Play();
-           audioSource.PlayOneShot(hitSound);
+           
         }
 
         if (Input.GetButtonUp("Fire3"))

@@ -35,7 +35,8 @@ public class BossScript : MonoBehaviour
     {
         if (health <= 0)
         {
-            Destroy(this.gameObject);
+            canAttack = false;
+            headAnim.SetFloat("ColorCode", 0.75f);
         }
         waitTime -= Time.deltaTime;
         if ((waitTime <= 0) && canAttack == true)

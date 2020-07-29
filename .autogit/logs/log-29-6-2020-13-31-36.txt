@@ -1,0 +1,29 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 13:31:36 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-13-1-31.txt
+* Assets/Art/Animations/BossBlue.anim
+* Assets/Art/Animations/BossBlue.anim.meta
+* Assets/Art/Animations/BossHappy.anim
+* Assets/Art/Animations/BossHappy.anim.meta
+* Assets/Art/Animations/BossHead.controller
+* Assets/Art/Animations/BossHead.controller.meta
+* Assets/Art/Animations/BossHeads_2.controller
+* Assets/Art/Animations/BossHeads_2.controller.meta
+* Assets/Art/Animations/BossNeutral.anim
+* Assets/Art/Animations/BossNeutral.anim.meta
+* Assets/Art/Animations/BossPurple.anim
+* Assets/Art/Animations/BossPurple.anim.meta
+* Assets/Art/Animations/BossYellow.anim
+* Assets/Art/Animations/BossYellow.anim.meta
+
+
+Deleted files:
+
+
+Renamed files:

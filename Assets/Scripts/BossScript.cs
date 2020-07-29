@@ -12,11 +12,14 @@ public class BossScript : MonoBehaviour
     public GameObject attack1;
     public GameObject attack2;
     public GameObject attack3;
+    public GameObject bossAnimator;
+    Animator headAnim;
 
     public int health;
     // Start is called before the first frame update
     void Start()
     {
+        Animator headAnim = bossAnimator.gameObject.GetComponent<Animator>();
         bossPos = transform.position;
         canAttack = true;
         waitTime = 5.0f;
@@ -39,7 +42,6 @@ public class BossScript : MonoBehaviour
         {
             attackNum = Random.Range(1, 4);
             canAttack = false;
-            Debug.Log("" + attackNum);
 
             switch (attackNum)
             {
@@ -47,6 +49,7 @@ public class BossScript : MonoBehaviour
                     Debug.Log("attack 3");
                     Instantiate (attack3, new Vector2 (bossPos.x - 2.5f, bossPos.y), Quaternion.identity);
                     waitTime = 5;
+                   // headAnim.SetTrigger("isYellow");
                     canAttack = true;
 
                     
@@ -56,6 +59,7 @@ public class BossScript : MonoBehaviour
                     Debug.Log("attack 2");
                     Instantiate (attack2, new Vector2 (bossPos.x - 5, bossPos.y), Quaternion.identity);
                     waitTime = 10;
+                   // headAnim.SetTrigger("isPurple");
                     canAttack = true;
                     break;
 
@@ -63,6 +67,7 @@ public class BossScript : MonoBehaviour
                     Debug.Log("attack 1");
                     Instantiate (attack1, new Vector2 (bossPos.x - 5, bossPos.y), Quaternion.identity);
                     waitTime = 10;
+                    //headAnim.SetTrigger("isBlue");
                     canAttack = true;
                     break;
             }

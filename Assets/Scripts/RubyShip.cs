@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class RubyShip : MonoBehaviour
 {
     public int health {get {return currentHealth;}}
-    public AudioClip shootSound;
+    public AudioClip hitSound;
     public int currentHealth;
     public int maxHealth;
     public float timeInvincible;
@@ -65,6 +65,7 @@ public class RubyShip : MonoBehaviour
         {
            projectileEffect.Play();
            audioSource.Play();
+           audioSource.PlayOneShot(hitSound);
         }
 
         if (Input.GetButtonUp("Fire3"))
@@ -122,6 +123,11 @@ public class RubyShip : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
             currentHealth -= 1;
+            damageEffect.Play();
+
+            
+            audioSource.PlayOneShot(hitSound);
+       
         Destroy(other.gameObject);
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
@@ -137,6 +143,10 @@ public class RubyShip : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
             currentHealth -= 1;
+            damageEffect.Play();
+
+
+            audioSource.PlayOneShot(hitSound);
 
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);

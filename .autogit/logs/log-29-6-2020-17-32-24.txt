@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 17:32:24 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Boss.unity
+* Assets/Scripts/RubyShip.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-17-2-18.txt
+* Assets/Audio/playerShot.ogg
+* Assets/Audio/playerShot.ogg.meta
+
+
+Deleted files:
+
+
+Renamed files:

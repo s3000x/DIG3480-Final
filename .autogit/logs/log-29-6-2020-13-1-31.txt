@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 13:01:31 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-12-31-24.txt
+* Assets/Art/Sprites/Characters/BossHeads.png
+* Assets/Art/Sprites/Characters/BossHeads.png.meta
+
+
+Deleted files:
+
+
+Renamed files:

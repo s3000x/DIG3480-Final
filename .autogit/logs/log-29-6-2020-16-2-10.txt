@@ -1,0 +1,26 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 16:02:10 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/BossHeads_2.controller
+* Assets/Art/Animations/Ruby.controller
+* Assets/Boss.unity
+* Assets/Scripts/RubyController.cs
+* Assets/Scripts/RubyShip.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-15-32-2.txt
+* Assets/Audio/BossMain.wav
+* Assets/Audio/BossMain.wav.meta
+* Assets/Audio/bomb.wav.meta
+* Assets/Audio/bullet_hit.wav.meta
+* Assets/Audio/hit.wav.meta
+* Assets/Audio/parry.wav.meta
+
+
+Deleted files:
+
+
+Renamed files:

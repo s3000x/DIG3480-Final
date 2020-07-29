@@ -13,6 +13,7 @@ public class BossScript : MonoBehaviour
     public GameObject attack2;
     public GameObject attack3;
     public GameObject bossAnimator;
+    public GameObject winMessage;
     Animator headAnim;
 
     public int health;
@@ -37,6 +38,7 @@ public class BossScript : MonoBehaviour
         {
             canAttack = false;
             headAnim.SetFloat("ColorCode", 0.75f);
+            winMessage.SetActive(true);
         }
         waitTime -= Time.deltaTime;
         if ((waitTime <= 0) && canAttack == true)

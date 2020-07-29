@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class RubyShip : MonoBehaviour
 {
     public int health {get {return currentHealth;}}
+    public AudioClip shootSound;
     public int currentHealth;
     public int maxHealth;
     public float timeInvincible;

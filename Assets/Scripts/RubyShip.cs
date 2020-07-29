@@ -25,6 +25,7 @@ public class RubyShip : MonoBehaviour
     public int coolDown = 1;
 
     Animator animator;
+    AudioSource audioSource;
 
 
 
@@ -36,7 +37,8 @@ public class RubyShip : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        currentHealth = maxHealth;       
+        currentHealth = maxHealth;   
+        audioSource = GetComponent<AudioSource>();    
     }
 
     void Launch()
@@ -62,11 +64,13 @@ public class RubyShip : MonoBehaviour
         if (Input.GetButtonDown("Fire3"))
         {
            projectileEffect.Play();
+           audioSource.Play();
         }
 
         if (Input.GetButtonUp("Fire3"))
         {
             projectileEffect.Stop();
+            audioSource.Stop();
         }
         if (isInvincible)
         {

@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 17:02:18 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/Explosion.prefab
+* Assets/Prefabs/SpreadShotEmitter.prefab
+* Assets/Scripts/BulletBehaviours/KillScript.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-16-32-13.txt
+* Assets/Audio/bulletshotExtended.ogg
+* Assets/Audio/bulletshotExtended.ogg.meta
+
+
+Deleted files:
+
+
+Renamed files:

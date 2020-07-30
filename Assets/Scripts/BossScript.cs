@@ -9,7 +9,8 @@ public class BossScript : MonoBehaviour
     private float waitTime;
     private Vector2 bossPos;
     public ParticleSystem damageEffect;
-
+    public ParticleSystem winEffect;
+    private bool canPlay;
     public GameObject attack1;
     public GameObject attack2;
     public GameObject attack3;
@@ -27,6 +28,7 @@ public class BossScript : MonoBehaviour
         canAttack = true;
         waitTime = 5.0f;
         maxHealth = health;
+        canPlay = true;
     }
 
     void OnParticleCollision()
@@ -45,6 +47,12 @@ public class BossScript : MonoBehaviour
             canAttack = false;
             headAnim.SetFloat("ColorCode", 0.75f);
             winMessage.SetActive(true);
+            if (canPlay == true)
+            {
+                winEffect.Play();
+                canPlay = false;
+            }
+
         }
         waitTime -= Time.deltaTime;
         if ((waitTime <= 0) && canAttack == true)

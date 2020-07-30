@@ -17,6 +17,7 @@ public class BossScript : MonoBehaviour
     Animator headAnim;
 
     public int health;
+    public int maxHealth;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +25,14 @@ public class BossScript : MonoBehaviour
         bossPos = transform.position;
         canAttack = true;
         waitTime = 5.0f;
+        maxHealth = health;
     }
 
     void OnParticleCollision()
     {
         health -= 1;
+        health = Mathf.Clamp(health, 0, maxHealth);
+        EnemyHealthUI.instance.SetValue(health / (float)maxHealth);
     }
 
     // Update is called once per frame

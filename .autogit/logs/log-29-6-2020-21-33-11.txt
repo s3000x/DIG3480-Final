@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 21:33:11 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-21-3-5.txt
+* Assets/Art/Sprites/UI/EnemyHealth.png
+* Assets/Art/Sprites/UI/EnemyHealth.png.meta
+* Assets/Art/Sprites/UI/EnemyHealthFrame.png
+* Assets/Art/Sprites/UI/EnemyHealthFrame.png.meta
+
+
+Deleted files:
+
+
+Renamed files:

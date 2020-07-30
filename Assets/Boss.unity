@@ -5939,6 +5939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubyShip
       objectReference: {fileID: 0}
+    - target: {fileID: 8218630704680043356, guid: 8d100b1da30415444ae599b5f2132fd0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8218630704680043359, guid: 8d100b1da30415444ae599b5f2132fd0,
         type: 3}
       propertyPath: shootSound

@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 18:40:53 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Boss.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-18-10-47.txt
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 14:10:02 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* Assets/Art/Sprites/Asteroid.png
+* Assets/Art/Sprites/Asteroid.png.meta
+* Assets/Scripts/AsteroidMovement.cs
+* Assets/Scripts/AsteroidMovement.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

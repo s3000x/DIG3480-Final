@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 21:03:05 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/SpreadShotEmitter.prefab
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-20-32-59.txt
+
+
+Deleted files:
+
+
+Renamed files:

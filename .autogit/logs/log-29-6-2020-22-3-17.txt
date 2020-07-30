@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 22:03:17 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/AnimationClips/PlayerShip/RubyShip_1.controller
+* Assets/Boss.unity
+* Assets/Scripts/BossScript.cs
+* ProjectSettings/InputManager.asset
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-21-33-11.txt
+* Assets/Scripts/EnemyHealthUI.cs
+* Assets/Scripts/EnemyHealthUI.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

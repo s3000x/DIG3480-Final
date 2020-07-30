@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyHealthUI : MonoBehaviour
 {
-    public EnemyHealthUI instance { get; private set; }
+    public static EnemyHealthUI instance { get; private set; }
 
 
     public Image mask;

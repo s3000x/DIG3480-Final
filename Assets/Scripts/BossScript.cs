@@ -8,6 +8,7 @@ public class BossScript : MonoBehaviour
     private int attackNum;
     private float waitTime;
     private Vector2 bossPos;
+    public ParticleSystem damageEffect;
 
     public GameObject attack1;
     public GameObject attack2;
@@ -33,6 +34,7 @@ public class BossScript : MonoBehaviour
         health -= 1;
         health = Mathf.Clamp(health, 0, maxHealth);
         EnemyHealthUI.instance.SetValue(health / (float)maxHealth);
+        damageEffect.Play();
     }
 
     // Update is called once per frame

@@ -515,7 +515,7 @@ PrefabInstance:
         type: 3}
       propertyPath: victory
       value: 
-      objectReference: {fileID: 8300000, guid: 4c263fb9723688f4fab02d0db1a53d18, type: 3}
+      objectReference: {fileID: 8300000, guid: f987bfc0b774d3f4e82dc47e91f78584, type: 3}
     - target: {fileID: 7824274180342554107, guid: ebd24dd1b2c0d7b42a517124e5daa9a3,
         type: 3}
       propertyPath: fixTracker
@@ -23308,7 +23308,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4c263fb9723688f4fab02d0db1a53d18, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f987bfc0b774d3f4e82dc47e91f78584, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -24306,6 +24306,7 @@ GameObject:
   - component: {fileID: 1858920851}
   - component: {fileID: 1858920850}
   - component: {fileID: 1858920853}
+  - component: {fileID: 1858920854}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24412,6 +24413,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1858920854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858920849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68166d91f4aa2a94d9cb94fd70904480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1905904710
 GameObject:
   m_ObjectHideFlags: 0

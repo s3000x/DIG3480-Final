@@ -276,7 +276,7 @@ PrefabInstance:
         type: 3}
       propertyPath: victory
       value: 
-      objectReference: {fileID: 8300000, guid: 4c263fb9723688f4fab02d0db1a53d18, type: 3}
+      objectReference: {fileID: 8300000, guid: f987bfc0b774d3f4e82dc47e91f78584, type: 3}
     - target: {fileID: 9179485919594706053, guid: ebd24dd1b2c0d7b42a517124e5daa9a3,
         type: 3}
       propertyPath: playOnAwake

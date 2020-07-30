@@ -17,7 +17,7 @@ public class NonPlayableCharacter : MonoBehaviour
     {
         dialogBox.SetActive(false);
         timerDisplay = -1.0f;
-        waitTime = 4.0f;
+        waitTime = 5.0f;
     }
 
     // Update is called once per frame
@@ -48,7 +48,6 @@ public class NonPlayableCharacter : MonoBehaviour
         EnemyCount count = fixTracker.gameObject.GetComponent<EnemyCount>();
         if (count.fixCount == count.fixRequired)
         {
-            Debug.Log("You fixed all the robots in this level! yeet!!!!");
             timerDisplay = displayTime;
             winDialog.SetActive(true);
             canWait = true;

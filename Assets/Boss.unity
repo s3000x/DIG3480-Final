@@ -355,6 +355,11 @@ PrefabInstance:
       propertyPath: winMessage
       value: 
       objectReference: {fileID: 424064310}
+    - target: {fileID: 57081359204484339, guid: 08c119772acaa3c4bb6f9ceea70e689a,
+        type: 3}
+      propertyPath: health
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 57081359204484340, guid: 08c119772acaa3c4bb6f9ceea70e689a,
         type: 3}
       propertyPath: m_LocalPosition.x

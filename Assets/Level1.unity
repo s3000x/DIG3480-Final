@@ -21330,7 +21330,7 @@ PrefabInstance:
     - target: {fileID: 7260108819964662088, guid: 5d9b329173e521d44bc086c2147ff9dd,
         type: 3}
       propertyPath: insertBuildIndexhere
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9b329173e521d44bc086c2147ff9dd, type: 3}

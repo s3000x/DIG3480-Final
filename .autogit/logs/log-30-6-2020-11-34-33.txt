@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 11:34:33 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Boss.unity
+* Assets/Level1.unity
+* Assets/Level2.unity
+* ProjectSettings/EditorBuildSettings.asset
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-11-4-20.txt
+* Assets/Scripts/Level2.cs
+* Assets/Scripts/Level2.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

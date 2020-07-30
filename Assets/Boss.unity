@@ -901,6 +901,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ebbe68b798d2c3c4f90f07930ce08547, type: 2}
+    - target: {fileID: 8218630704414920274, guid: 8d100b1da30415444ae599b5f2132fd0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
     - target: {fileID: 8218630704680043353, guid: 8d100b1da30415444ae599b5f2132fd0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15460,6 +15465,7 @@ GameObject:
   - component: {fileID: 843871690}
   - component: {fileID: 843871689}
   - component: {fileID: 843871692}
+  - component: {fileID: 843871693}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -15628,6 +15634,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &843871693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843871688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68166d91f4aa2a94d9cb94fd70904480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1225360156
 GameObject:
   m_ObjectHideFlags: 0

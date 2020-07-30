@@ -105,12 +105,12 @@ public class RubyController : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown(KeyCode.C) && ammo > 0)
-        {
-            Launch();
+        //if(Input.GetKeyDown(KeyCode.C) && ammo > 0)
+        //{
+         //   Launch();
 
-            PlaySound(throwSound);
-        }
+          //  PlaySound(throwSound);
+        //}
         if(Input.GetButtonDown("Fire3") && ammo > 0)
         {
             Launch();

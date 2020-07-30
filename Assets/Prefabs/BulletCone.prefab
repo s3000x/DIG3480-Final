@@ -50,6 +50,7 @@ MonoBehaviour:
   killModeDestroy: 1
   killModeDeactivate: 0
   randomize: 0
+  killClip: {fileID: 0}
 --- !u!82 &-8689229316629847415
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3878,7 +3879,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 28471
+      m_Bits: 256
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -8632,7 +8633,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 28471
+      m_Bits: 256
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -9741,6 +9742,7 @@ MonoBehaviour:
   killModeDestroy: 1
   killModeDeactivate: 0
   randomize: 0
+  killClip: {fileID: 0}
 --- !u!1 &7978024055462366751
 GameObject:
   m_ObjectHideFlags: 0
@@ -13473,7 +13475,7 @@ ParticleSystem:
     radiusScale: 0.6
     collidesWith:
       serializedVersion: 2
-      m_Bits: 28471
+      m_Bits: 256
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5

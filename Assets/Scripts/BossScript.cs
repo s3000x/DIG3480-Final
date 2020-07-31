@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossScript : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class BossScript : MonoBehaviour
 
     public int health;
     public int maxHealth;
+    public float endTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class BossScript : MonoBehaviour
         waitTime = 5.0f;
         maxHealth = health;
         canPlay = true;
+        endTime = 4.0f;
     }
 
     void OnParticleCollision()
@@ -47,10 +50,15 @@ public class BossScript : MonoBehaviour
             canAttack = false;
             headAnim.SetFloat("ColorCode", 0.75f);
             winMessage.SetActive(true);
+            endTime -= Time.deltaTime;
             if (canPlay == true)
             {
                 winEffect.Play();
                 canPlay = false;
+            }
+            if (endTime <= 0)
+            {
+                SceneManager.LoadScene("Level1");
             }
 
         }

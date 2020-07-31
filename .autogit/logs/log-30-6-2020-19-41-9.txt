@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 19:41:09 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Boss.unity
+* Assets/Prefabs/Explosion.prefab
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

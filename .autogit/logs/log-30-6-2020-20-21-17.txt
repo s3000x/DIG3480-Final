@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 20:21:17 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scripts/BossScript.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-19-41-9.txt
+
+
+Deleted files:
+
+
+Renamed files:
